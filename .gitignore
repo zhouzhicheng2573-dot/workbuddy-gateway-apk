@@ -1,0 +1,19 @@
+# 账号与凭据 —— 永远不要提交
+auth.*.pool.json
+auth.*.json
+config.json
+*.bak
+*.bak-*
+.login-state.json
+usage.json
+server.log
+*.log
+
+# 构建产物
+build/
+*.idsig
+node_modules/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
